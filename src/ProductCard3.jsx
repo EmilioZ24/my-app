@@ -23,7 +23,7 @@ const ProductCard3 = () => {
                 <div className='product_description'>
                     <p>Yo, let me tell you about Yeezys, they're like a symphony of style and innovation, crafted with the precision of a genius. They ain't just shoes, they're a statement, a testament to my vision and creativity. When you step into a pair, you're stepping into the future, where fashion meets art in the most extraordinary way. Yeezys ain't just footwear, they're a movement, a revolution in design that's changing the game.</p>
                 </div>
-                <button type="button" className='cta_add_to_cart'>Add To Cart</button>
+                <button type="button" className='cta_add_to_cart' >Add To Cart</button>
             </div>
         </div>
     </div>

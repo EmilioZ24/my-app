@@ -11,7 +11,7 @@ const ProductCard = () => {
         <div className='product_card' >
             <div className='top_card'>
                 {/* img, price */}
-                <img src={shoe} className="product_image"/>
+                <img src={shoe} alt=""className="product_image"/>
                 <span className='product_price'>$ 360</span>
             </div>
             <div className='bottom_card'>
@@ -33,7 +33,7 @@ const ProductCard = () => {
         <div className='product_card' >
             <div className='top_card'>
                 {/* img, price */}
-                <img src={shoe2} className="product_image"/>
+                <img src={shoe2} alt="" className="product_image"/>
                 <span className='product_price'>$ 360</span>
             </div>
             <div className='bottom_card'>
@@ -46,7 +46,7 @@ const ProductCard = () => {
                     <p>Yo, let me tell you about Yeezys, they're like a symphony of style and innovation, crafted with the precision of a genius. They ain't just shoes, they're a statement, a testament to my vision and creativity. When you step into a pair, you're stepping into the future, where fashion meets art in the most extraordinary way. Yeezys ain't just footwear, they're a movement, a revolution in design that's changing the game.</p>
                 </div>
                 <div>
-                <button type="button" className='cta_add_to_cart'>Add To Cart</button>
+                <button type="button" onClick={() => setScore(score + 1)}>className='cta_add_to_cart'>Add To Cart</button>
                 </div>
             </div>
         </div>
